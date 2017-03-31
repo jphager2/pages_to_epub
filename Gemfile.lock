@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    builder (3.2.3)
+    commander (4.4.3)
+      highline (~> 1.7.2)
+    highline (1.7.8)
+    kramdown (1.13.2)
+    mini_portile2 (2.1.0)
+    nokogiri (1.7.1)
+      mini_portile2 (~> 2.1.0)
+    rpub (0.5.0)
+      builder
+      commander
+      kramdown
+      nokogiri
+      rubyzip
+      textstats
+      typogruby
+    rubypants (0.6.0)
+    rubyzip (1.2.1)
+    textstats (0.0.2)
+    typogruby (1.0.18)
+      rubypants
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nokogiri
+  rpub
+
+BUNDLED WITH
+   1.14.6
